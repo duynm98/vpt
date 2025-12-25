@@ -6,8 +6,8 @@ input_folder = "."  # folder with original images
 output_folder = "resized_images"  # folder to save resized images
 
 # 📐 Target size
-TARGET_WIDTH = 900
-TARGET_HEIGHT = 1200
+TARGET_WIDTH = 600
+TARGET_HEIGHT = 800
 
 # Create output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
